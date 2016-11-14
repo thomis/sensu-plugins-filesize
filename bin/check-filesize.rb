@@ -44,7 +44,7 @@ class CheckFilesize < Sensu::Plugin::Check::CLI
     files_found = `find #{config[:foldername]} -type f -size #{config[:filesize]}`.strip.lines
 
     if files_found.size == 0
-      return ok('')
+      return ok
     else
       buffer = ["Files found: #{files_found.size}"]
       buffer << nil
