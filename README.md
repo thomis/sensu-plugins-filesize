@@ -18,9 +18,9 @@ Sensu plugin to search files based on size.
   check-filesize.rb -f /apps -s 50c
   ```
 
-### What -s or -size are available
+## About the -s or -size option
 
-The size option is transparently passed to the find command. Mor details can be found here: man find
+The size option is transparently passed to the find command. More details can be found in the man pages for find (> man find).
 
 ## Installation
 
