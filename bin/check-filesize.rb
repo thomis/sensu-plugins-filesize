@@ -30,7 +30,7 @@ require 'sensu-plugin/check/cli'
 
 class CheckFilesize < Sensu::Plugin::Check::CLI
   option :foldername,
-         description: 'Name of folder',
+         description: 'Name of folder (defaut: ~)',
          short: '-f FOLDERNAME',
          long: '--folder FOLDERNAME',
          default: '~' # home folder
@@ -43,8 +43,11 @@ class CheckFilesize < Sensu::Plugin::Check::CLI
 
   def run
 
-    files_found = `find #{config[:foldername]} -type f -size #{config[:filesize]}`.strip.lines
+    raw = `find #{config[:foldername]} -type f -size #{config[:filesize]}`
 
+    warning('Passed options seems not correct. Please verify.') if $?.exitstatus > 0
+
+    files_found = raw.strip.lines
     if files_found.size == 0
       return ok
     else
