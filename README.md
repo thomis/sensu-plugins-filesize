@@ -15,10 +15,12 @@ Sensu plugin to search files based on size.
   check-filesize.rb -f ~ -s -100M
 
   -- check for files exactly of size 50 kb in /apps folder including subfolders
-    check-filesize.rb -f /apps -s 50c
+  check-filesize.rb -f /apps -s 50c
   ```
 
-  * -s or --size compare -size option from find (man size)
+### What -s or -size are available
+
+The size option is transparently passed to the find command. Mor details can be found here: man find
 
 ## Installation
 
