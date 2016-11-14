@@ -26,7 +26,6 @@
 #   for details.
 #
 
-require 'sensu-plugins-oracle'
 require 'sensu-plugin/check/cli'
 
 class CheckFilesize < Sensu::Plugin::Check::CLI
