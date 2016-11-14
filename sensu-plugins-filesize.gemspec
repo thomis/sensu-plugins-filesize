@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
                                   'release_draft'      => 'false',
                                   'release_prerelease' => 'false' }
 
-  s.add_runtime_dependency 'sensu-plugin', '~> 1.4.2'
+  spec.add_runtime_dependency 'sensu-plugin', '~> 1.4.2'
 
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "rake", "~> 11.3"
