@@ -20,7 +20,7 @@ Sensu plugin to search files based on size.
 
 ## About the -s or -size option
 
-The size option is transparently passed to the find command. More details can be found in the man pages for find (> man find).
+The size option is transparently passed to the find command. More details can be found in the man pages of the find command (> man find).
 
 ## Installation
 

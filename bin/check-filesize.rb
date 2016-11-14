@@ -33,11 +33,13 @@ class CheckFilesize < Sensu::Plugin::Check::CLI
          description: 'Name of folder',
          short: '-f FOLDERNAME',
          long: '--folder FOLDERNAME'
+         default: '~' # home folder
 
   option :filesize,
          description: 'Size of file',
          short: '-s FILESIZE',
          long: '--size FILESIZE'
+         required: true
 
   def run
 
