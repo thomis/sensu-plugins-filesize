@@ -1,4 +1,14 @@
 require "spec_helper"
+require 'fileutils'
+
+def create_temp_file(size, name="a_file.dat")
+  FileUtils::mkdir_p 'tmp'
+  File.open("tmp/#{name}", 'wb') do |f|
+    data = 'x' * size
+    f.write(data)
+  end
+end
+
 
 describe Sensu::Plugins::Filesize do
   it "has a version number" do
@@ -6,7 +16,7 @@ describe Sensu::Plugins::Filesize do
   end
 
   it 'does not find any file' do
-    `mkdir -p tmp`
+    create_temp_file(1)
 
     # tun check
     response = `bin/check-filesize.rb -f tmp -s +20M`
@@ -17,11 +27,10 @@ describe Sensu::Plugins::Filesize do
 
   it 'finds a file bigger than 20m' do
     # create the file
-    `mkdir -p tmp && dd if=/dev/zero of=tmp/a_file.dat  bs=21m  count=1`
+    create_temp_file(1024*1024*21)
 
-    # run the check
+    # run check
     response = `bin/check-filesize.rb -f tmp -s +20M`
-
     lines = response.split("\n")
 
     expect(lines[0]).to match(/CheckFilesize WARNING: Files found: 1/)
@@ -31,11 +40,10 @@ describe Sensu::Plugins::Filesize do
 
   it 'finds a file smaller than 20m' do
      # create the file
-    `mkdir -p tmp && dd if=/dev/zero of=tmp/a_file.dat  bs=19m  count=1`
+    create_temp_file(1024*1024*19)
 
-    # run the check
+    # run check
     response = `bin/check-filesize.rb -f tmp -s -20M`
-
     lines = response.split("\n")
 
     expect(lines[0]).to match(/CheckFilesize WARNING: Files found: 1/)
@@ -44,9 +52,9 @@ describe Sensu::Plugins::Filesize do
 
   it 'finds a file with exact file size' do
      # create the file
-    `mkdir -p tmp && dd if=/dev/zero of=tmp/a_file.dat  bs=10m  count=1`
+    create_temp_file(1024*1024*10)
 
-    # run the check
+    # run check
     response = `bin/check-filesize.rb -f tmp -s 10M`
 
     lines = response.split("\n")
