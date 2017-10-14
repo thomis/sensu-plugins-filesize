@@ -1,4 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-filesize.svg)](https://badge.fury.io/rb/sensu-plugins-filesize)
+[![Dependency Status](https://gemnasium.com/badges/github.com/thomis/sensu-plugins-filesize.svg)](https://gemnasium.com/github.com/thomis/sensu-plugins-filesize)
 [![Build Status](https://travis-ci.org/thomis/sensu-plugins-filesize.svg?branch=master)](https://travis-ci.org/thomis/sensu-plugins-filesize)
 
 # sensu-plugins-filesize
