@@ -4,7 +4,7 @@
 #
 # DESCRIPTION:
 #
-#   This plugin allows to search for files based o file size
+#   This plugin allows to search for files based on file size
 #
 # OUTPUT:
 #   plain text
