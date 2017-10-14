@@ -1,6 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-filesize.svg)](https://badge.fury.io/rb/sensu-plugins-filesize)
 [![Dependency Status](https://gemnasium.com/badges/github.com/thomis/sensu-plugins-filesize.svg)](https://gemnasium.com/github.com/thomis/sensu-plugins-filesize)
-[![Code Climate](https://codeclimate.com/github/thomis/sensu-plugins-filesize/badges/gpa.svg)](https://codeclimate.com/github/thomis/sensu-plugins-filesize)
+[![Maintainability](https://api.codeclimate.com/v1/badges/83cc2ff8ee1d6db49b32/maintainability)](https://codeclimate.com/github/thomis/sensu-plugins-filesize/maintainability)
 [![Build Status](https://travis-ci.org/thomis/sensu-plugins-filesize.svg?branch=master)](https://travis-ci.org/thomis/sensu-plugins-filesize)
 
 # sensu-plugins-filesize
