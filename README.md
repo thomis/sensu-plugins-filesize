@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/thomis/sensu-plugins-filesize.svg?branch=master)](https://travis-ci.org/thomis/sensu-plugins-filesize)
+
 # sensu-plugins-filesize
 
 Sensu plugin to search files based on size.
