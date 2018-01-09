@@ -9,3 +9,4 @@ rvm:
   - 2.1.5
 before_install:
   - gem install bundler --version '~> 1.15.4'
+  - gem install rake
