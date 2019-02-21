@@ -1,3 +1,7 @@
+## 0.3.0 / 2019-02-21
+
+* Update gem dependencies (bundler, rake, rspec, sensu-plugin)
+
 ## 0.2.1 / 2017-10-30
 
 * Update gem dependencies (rake, rspec)
