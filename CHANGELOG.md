@@ -1,3 +1,10 @@
+## 0.4.0 / 2022-07-27
+
+* Switch to GitHub actions
+* Use of dependabot
+* Use of Ruby style guide and linter
+* Use of test coverage
+
 ## 0.3.0 / 2019-02-21
 
 * Update gem dependencies (bundler, rake, rspec, sensu-plugin)

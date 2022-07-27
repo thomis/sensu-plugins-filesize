@@ -1,6 +1,7 @@
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-filesize.svg)](https://badge.fury.io/rb/sensu-plugins-filesize)
 [![Maintainability](https://api.codeclimate.com/v1/badges/83cc2ff8ee1d6db49b32/maintainability)](https://codeclimate.com/github/thomis/sensu-plugins-filesize/maintainability)
-[![Build Status](https://travis-ci.org/thomis/sensu-plugins-filesize.svg?branch=master)](https://travis-ci.org/thomis/sensu-plugins-filesize)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/83cc2ff8ee1d6db49b32/test_coverage)](https://codeclimate.com/github/thomis/sensu-plugins-filesize/test_coverage)
+
 
 # sensu-plugins-filesize
 
@@ -29,3 +30,12 @@ The size option is transparently passed to the find command. More details can be
 ## Installation
 
 [Installation and Setup](http://sensu-plugins.io/docs/installation_instructions.html)
+
+## Supported Ruby Versions
+
+Currently supported and tested ruby versions are:
+
+- 3.1
+- 3.0
+- 2.7
+- 2.6 (EOL 31 Mar 2022)
