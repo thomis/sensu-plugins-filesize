@@ -1,7 +1,7 @@
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-filesize.svg)](https://badge.fury.io/rb/sensu-plugins-filesize)
 [![Maintainability](https://api.codeclimate.com/v1/badges/83cc2ff8ee1d6db49b32/maintainability)](https://codeclimate.com/github/thomis/sensu-plugins-filesize/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/83cc2ff8ee1d6db49b32/test_coverage)](https://codeclimate.com/github/thomis/sensu-plugins-filesize/test_coverage)
-
+[![ci](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/ci.yml/badge.svg)](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/ci.yml)
 
 # sensu-plugins-filesize
 
