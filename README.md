@@ -29,7 +29,7 @@ The size option is transparently passed to the find command. More details can be
 
 ## Installation
 
-[Installation and Setup](http://sensu-plugins.io/docs/installation_instructions.html)
+[Installation and Setup](https://docs.sensu.io/sensu-core/latest/installation/installing-plugins)
 
 ## Supported Ruby Versions
 
