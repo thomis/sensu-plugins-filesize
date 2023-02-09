@@ -33,6 +33,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.12"
-  spec.add_development_dependency "standard", "~> 1.18"
+  spec.add_development_dependency "standard", "~> 1.23"
   spec.add_development_dependency "simplecov", "~> 0.21"
 end
