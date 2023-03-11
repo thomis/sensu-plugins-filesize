@@ -1,3 +1,7 @@
+## 0.6.0 / 2023-03-11
+
+* Update gem dependencies
+
 ## 0.5.0 / 2023-02-03
 
 * Update gem dependencies
