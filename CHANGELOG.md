@@ -1,3 +1,8 @@
+## 0.7.0 / 2023-08-19
+
+* Update CI/CD with actual ruby versions
+* Update gem dependencies
+
 ## 0.6.0 / 2023-03-11
 
 * Update gem dependencies
