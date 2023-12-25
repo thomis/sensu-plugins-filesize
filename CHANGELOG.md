@@ -1,3 +1,7 @@
+## 0.7.0 / 2023-12-25
+
+* Update CI/CD to use ruby 3.3.0
+
 ## 0.7.0 / 2023-08-19
 
 * Update CI/CD with actual ruby versions
