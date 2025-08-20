@@ -1,5 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-filesize.svg)](https://badge.fury.io/rb/sensu-plugins-filesize)
-[![ci](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/ci.yml/badge.svg)](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/ci.yml)
+[![01 - Test](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/01_test.yml/badge.svg)](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/01_test.yml)
+[![02 - Release](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/02_release.yml/badge.svg)](https://github.com/thomis/sensu-plugins-filesize/actions/workflows/02_release.yml)
 
 # sensu-plugins-filesize
 
@@ -36,7 +37,10 @@ Currently supported and tested ruby versions are:
 - 3.4 (EOL March 31 2028)
 - 3.3 (EOL March 31 2027)
 - 3.2 (EOL March 31 2026)
-- 3.1 (EOL March 31 2025, is not part of CI anymore)
-- 3.0 (EOL March 31 2024, is not part of CI anymore)
-- 2.7 (EOL March 31 2023, is not part of CI anymore)
-- 2.6 (EOL March 31 2022, is not part of CI anymore)
+
+Not tested anymore
+
+- 3.1 (EOL March 31 2025)
+- 3.0 (EOL March 31 2024)
+- 2.7 (EOL March 31 2023)
+- 2.6 (EOL March 31 2022)
