@@ -1,3 +1,7 @@
+## 0.7.1 / 2025-11-09
+
+* Enabled Trusted Publisher
+
 ## 0.7.0 / 2023-12-25
 
 * Update CI/CD to use ruby 3.3.0

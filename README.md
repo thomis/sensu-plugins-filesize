@@ -45,6 +45,12 @@ Not tested anymore
 - 2.7 (EOL March 31 2023)
 - 2.6 (EOL March 31 2022)
 
+## Publishing
+
+This project uses [Trusted Publishing](https://guides.rubygems.org/trusted-publishing/) to securely publish gems to RubyGems.org. Trusted Publishing eliminates the need for long-lived API tokens by using OpenID Connect (OIDC) to establish a trusted relationship between GitHub Actions and RubyGems.org.
+
+With Trusted Publishing configured, gem releases are automatically published to RubyGems when the release workflow runs, providing a more secure and streamlined publishing process.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/thomis/sensu-plugins-filesize. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
