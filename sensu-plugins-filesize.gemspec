@@ -30,7 +30,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "sensu-plugin", "~> 4.0"
 
-  spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.12"
   spec.add_development_dependency "standard", "~> 1.23"
