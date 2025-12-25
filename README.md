@@ -34,6 +34,7 @@ The size option is transparently passed to the find command. More details can be
 
 Currently supported and tested ruby versions are:
 
+- 4.0 (EOL March 31 2029)
 - 3.4 (EOL March 31 2028)
 - 3.3 (EOL March 31 2027)
 - 3.2 (EOL March 31 2026)

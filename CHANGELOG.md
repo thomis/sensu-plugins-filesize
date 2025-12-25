@@ -1,3 +1,7 @@
+## 0.7.2 / 2025-12-25
+
+* Update CI/CD to use ruby 4.0.0
+
 ## 0.7.1 / 2025-11-09
 
 * Enabled Trusted Publisher
